@@ -6,8 +6,10 @@ https://apkpure.com/lifx/com.lifx.lifx
 
 Arduino Feather:
 https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview
+
 This program now makes use of a apa102 from polulu, which allows for use with the sk9822 found here:
 https://github.com/pololu/apa102-arduino
+
 WifiModule Library:
 https://github.com/espressif/arduino-esp32
 
