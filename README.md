@@ -1,3 +1,17 @@
+Use lifx app to control led strips, Modified from VinzzB to work with sk9822 and Adafruit Feather Huzzah32
+
+----------------------------------- Currently Does not work with Lifx app 3.14----------------------------------------
+There was an update recently that changed the udp packet sent to zstrips so currently only 3.13 works found here:
+https://apkpure.com/lifx/com.lifx.lifx
+
+Arduino Feather:
+https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview
+This program now makes use of a apa102 from polulu, which allows for use with the sk9822 found here:
+https://github.com/pololu/apa102-arduino
+WifiModule Library:
+https://github.com/espressif/arduino-esp32
+
+------------------------------------------ ORIGINAL README-----------------------------------------------------------
 # LifxZoneStrip
 Use the Lifx app to control zones with self made LED strips. I'm using APA102 LED Driver strips. (other drivers are also possible)
 
